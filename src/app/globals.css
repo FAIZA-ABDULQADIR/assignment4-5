@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul li{
+    position: relative;
+}
+nav ul li .link::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color:#4b051b;
+    transition: width 0.3s ease,left 0.3s ease;
+}
+
+nav ul li .link:hover::after{
+    width: 100%;
+    left: 0;
+}
+ .link:hover::after{transition: all0.3S ease-in-out;}
+.blog_card:hover{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 48px 100px 0px;
+}
+/* Global CSS styles */
+
+.sidebar-show {
+    transform: translateX(0);
+}
+
+.sidebar-hide {
+    transform: translateX(100%);
+}
+
+
+@media screen and (max-width: 700px) {
+    .blog_card{
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 550px)  {
+    .blog_card{
+        width: 350px;
+    }
+    .parentDiv{
+        width: 90%;
+    }
+}
+
+/* Ensure this part is in your CSS file */
+.dropdown-content {
+    position: absolute; /* Keep it absolutely positioned */
+    left: 0; /* Align to the left */
+    top: 100%; /* Place it below the dropdown */
+    background-color: #00072d; /* Background color */
+    color: #f0f0f0; /* Text color */
+    border: 1px solid #a6e1fa; /* Border color */
+    padding: 8px; /* Increased padding for better spacing */
+    z-index: 50; /* Ensure it sits above other elements */
+    display: none; /* Start hidden */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: opacity 0.2s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+}
