@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+
 
 const Blog1 = () => {
     return (
@@ -10,7 +10,7 @@ const Blog1 = () => {
             
     
     <h2 className='capitalize mt-3 text-[2.5vw] text-[#FFFFFF]'>Introduction</h2>
-    <p className='text-[1.5vw] text-[#EAEAEA]'>Positive reinforcement is a powerful tool for shaping children's behavior and fostering a nurturing environment. This technique encourages desirable actions and helps build a child's confidence and self-esteem, laying the groundwork for their emotional and social development.</p>
+    <p className='text-[1.5vw] text-[#EAEAEA]'>Positive reinforcement is a powerful tool for shaping children&apos;s behavior and fostering a nurturing environment. This technique encourages desirable actions and helps build a child&apos;s confidence and self-esteem, laying the groundwork for their emotional and social development.</p>
     
     <h2 className='capitalize mt-3 text-[2.5vw] text-[#FFFFFF]'>What is Positive Reinforcement?</h2>
     <p className='text-[1.5vw] text-[#EAEAEA]'>Positive reinforcement involves rewarding desired behaviors to increase the likelihood of those behaviors being repeated. Rewards can come in many forms, including verbal praise, tangible rewards, or quality time. This approach not only reinforces good behavior but also enhances the emotional connection between parents and children.</p>
@@ -31,7 +31,7 @@ const Blog1 = () => {
     
     <h2 className='capitalize mt-3 text-[2.5vw] text-[#FFFFFF]'>Practical Examples of Positive Reinforcement</h2>
     <ul className='mt-3'>
-        <li className='text-[1.5vw] text-[#EAEAEA] mt-2'><b><u>Praise and Encouragement:</u></b> Simple verbal affirmations, such as, “I’m proud of you for finishing your homework on time,” can have a significant impact on a child’s motivation and behavior.</li>
+        <li className='text-[1.5vw] text-[#EAEAEA] mt-2'><b><u>Praise and Encouragement:</u></b> Simple verbal affirmations, such as, “I’m proud of you for finishing your homework on time,” can have a significant impact on a child&apos;s motivation and behavior.</li>
         <li className='text-[1.5vw] text-[#EAEAEA] mt-2'><b><u>Reward Systems:</u></b> Implement a sticker chart for tasks or good behavior. After collecting a certain number of stickers, children can earn a small reward, such as a favorite activity or treat.</li>
         <li className='text-[1.5vw] text-[#EAEAEA] mt-2'><b><u>Quality Time:</u></b> Spend time engaging in activities your child enjoys as a reward for good behavior. This not only reinforces their actions but also strengthens your relationship.</li>
         <li className='text-[1.5vw] text-[#EAEAEA] mt-2'><b><u>Positive Affirmations:</u></b> Use positive affirmations regularly to encourage a growth mindset. Phrases like, “You did an amazing job today!” help children internalize a sense of accomplishment.</li>
@@ -41,7 +41,7 @@ const Blog1 = () => {
     <p className='text-[1.5vw] text-[#EAEAEA]'>Some parents may worry that using positive reinforcement will lead to entitlement or that children will only behave well for rewards. However, the key is to ensure that reinforcement is specific and genuine. By focusing on intrinsic motivation and gradually reducing external rewards, parents can help children develop a sense of internal motivation that lasts.</p>
     
     <h2 className='capitalize mt-3 text-[2.5vw] text-[#FFFFFF]'>Conclusion</h2>
-    <p className='text-[1.5vw] text-[#EAEAEA]'>Positive reinforcement is essential for effective parenting. By focusing on rewarding good behavior, parents can create a positive environment that fosters growth, learning, and a strong relationship. Incorporating these strategies into daily life can significantly impact a child's development and happiness, making them feel valued and understood. Embrace the power of positive reinforcement, and watch your child's confidence and behavior flourish!</p>
+    <p className='text-[1.5vw] text-[#EAEAEA]'>Positive reinforcement is essential for effective parenting. By focusing on rewarding good behavior, parents can create a positive environment that fosters growth, learning, and a strong relationship. Incorporating these strategies into daily life can significantly impact a child&apos;s development and happiness, making them feel valued and understood. Embrace the power of positive reinforcement, and watch your child&apos;s confidence and behavior flourish!</p>
 </div>
         </div>
     )
